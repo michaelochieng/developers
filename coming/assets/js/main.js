@@ -1,7 +1,10 @@
+
 (function() {
   "use strict";
 
- 
+  /**
+   * Easy selector helper function
+   */
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -10,6 +13,10 @@
       return document.querySelector(el)
     }
   }
+
+  /**
+   * Countdown timer
+   */
 
   let countdown = select('.countdown');
 
