@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/occident/developers.co.ke/
-        -/bin/cp -a *
+        -/bin/cp -a * $DEPLOYPATH
